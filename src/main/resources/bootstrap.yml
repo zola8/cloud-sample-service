@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: sample-service
+  cloud:
+    config:
+      uri: http://localhost:9999    
+server:
+  port: 9000
+eureka:
+  instance:
+    hostname: localhost
+  
